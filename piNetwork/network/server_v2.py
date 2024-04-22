@@ -8,7 +8,7 @@ def multipleClients(client_socket, addr):
 
     client_socket.send("Ready to receive messages".encode())
 
-    with open('/home/ryanjames/Desktop/vpn/clientFiles/list.txt', 'r') as file:
+    with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/clientFiles/list.txt', 'r') as file:
         file_content = file.read()
     client_socket.send(file_content.encode())
 
@@ -19,23 +19,23 @@ def multipleClients(client_socket, addr):
             print("Desktop:", message)
 
             if message.lower() == 'planets':
-                with open('/home/ryanjames/Desktop/vpn/clientFiles/planets.txt', 'r') as file:
+                with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/clientFiles/planets.txt', 'r') as file:
                     file_content = file.read()
                 client_socket.send(file_content.encode())
             elif message.lower() == 'helloWorld':
-                with open('/home/ryanjames/Desktop/vpn/clientFiles/helloWorld.py', 'r') as file:
+                with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/clientFiles/helloWorld.py', 'r') as file:
                     file_content = file.read()
                 client_socket.send(file_content.encode())
             elif message.lower() == 'homepage':
-                with open('/home/ryanjames/Desktop/vpn/clientFiles/Homepage.txt', 'r') as file:
+                with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/clientFiles/Homepage.txt', 'r') as file:
                     file_content = file.read()
                 client_socket.send(file_content.encode())
             elif message.lower() == 'project':
-                with open('/home/ryanjames/Desktop/vpn/clientFiles/Project.txt', 'r') as file:
+                with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/clientFiles/Project.txt', 'r') as file:
                     file_content = file.read()
                 client_socket.send(file_content.encode())
             elif message.lower() == 'list':
-                with open('/home/ryanjames/Desktop/vpn/clientFiles/list.txt', 'r') as file:
+                with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/clientFiles/list.txt', 'r') as file:
                     file_content = file.read()
                 client_socket.send(file_content.encode())
             elif message.lower() == 'quit':
