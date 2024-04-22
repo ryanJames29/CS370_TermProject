@@ -1,0 +1,13 @@
+Full Requirements can be found at: https://www.cs.colostate.edu/~cs370/Spring24/CS370-TermProject.pdf
+
+You are free to formulate any project with your Raspberry Pi. Two constraints are imposed on this
+project:
+1. The Raspberry Pi must be the key enabler of the project.
+2. There should be at least 3 components involved in the project. Your term project must involve ONE of the following:
+    a. A single Raspberry Pi and 2 desktops OR
+    b. 2 Raspberry Pis and one regular desktop OR
+    c. 3 Raspberry Pis OR
+    d. A Raspberry Pi, a desktop, and a sensor OR
+    e. A Raspberry Pi and 2 sensors
+    
+What counts as a sensor? Cameras, audio sensors, microphones, infrared, motion detectors, etc. 
