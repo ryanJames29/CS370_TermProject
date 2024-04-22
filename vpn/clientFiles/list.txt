@@ -1,8 +1,0 @@
-Files available to you (client):
-
-1. planets.txt (planets)
-2. helloWorld.py (helloWorld)
-3. Link to CS370 Homepage (Homepage)
-4. CS370 Term Project Requirements (Project)
-
-Hope we can help you find what you need!
