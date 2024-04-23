@@ -20,6 +20,6 @@ while True:
         break
     
     response = client_socket.recv(1024).decode()
-    print("Server:", response)
+    print(response)
 
 client_socket.close()
