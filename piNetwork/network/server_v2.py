@@ -1,5 +1,15 @@
 import socket
 import threading
+from gpiozero import LED
+from time import sleep
+
+red_LED = LED(26)
+yellow_LED = LED(20)
+green_LED = LED(6)
+
+red_LED.on()
+
+numClients = []
 
 def multipleClients(client_socket, addr):
     print(f"Connection from {addr}\n")
@@ -21,6 +31,15 @@ def multipleClients(client_socket, addr):
     # Check username and password
     if (username_attempt == username1 and password_attempt == password1) or \
     (username_attempt == username2 and password_attempt == password2):
+        numClients.append(addr) 
+        size = len(numClients)
+        if size == 1:
+            red_LED.off()
+            yellow_LED.on()
+        elif size == 2:
+            red_LED.off()
+            yellow_LED.off()
+            green_LED.on()
         client_socket.send("Login successful!\n".encode())
         # Proceed with further actions after successful login
         with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/serverFiles/list.txt', 'r') as file:
@@ -54,6 +73,9 @@ def multipleClients(client_socket, addr):
                         file_content = file.read()
                     client_socket.send(file_content.encode())
                 elif message.lower() == 'quit':
+                    yellow_LED.off()
+                    green_LED.off()
+                    red_LED.on()
                     break
                 else:
                     client_socket.send("Need anything else? (quit to exit)".encode())
