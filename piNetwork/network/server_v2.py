@@ -73,9 +73,14 @@ def multipleClients(client_socket, addr):
                         file_content = file.read()
                     client_socket.send(file_content.encode())
                 elif message.lower() == 'quit':
-                    yellow_LED.off()
-                    green_LED.off()
-                    red_LED.on()
+                    if size == 1:
+                        yellow_LED.off()
+                        green_LED.off()
+                        red_LED.on()
+                    else:
+                        red_LED.off()
+                        green_LED.off()
+                        yellow_LED.on()
                     break
                 else:
                     client_socket.send("Need anything else? (quit to exit)".encode())
