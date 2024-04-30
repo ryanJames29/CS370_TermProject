@@ -1,8 +1,8 @@
 Files available to you (client):
 
-1. planets.txt (planets)
-2. helloWorld.py (helloWorld)
-3. Link to CS370 Homepage (Homepage)
-4. CS370 Term Project Requirements (Project)
+1. Learn about the planets in our solar system (planets)
+2. Learn about this Raspberry Pi (pi)
+3. Link to CS370 Homepage (homepage)
+4. CS370 Term Project Requirements (project)
 
 Hope we can help you find what you need!

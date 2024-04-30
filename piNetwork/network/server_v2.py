@@ -56,8 +56,8 @@ def multipleClients(client_socket, addr):
                     with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/serverFiles/planets.txt', 'r') as file:
                         file_content = file.read()
                     client_socket.send(file_content.encode())
-                elif message.lower() == 'helloWorld':
-                    with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/serverFiles/helloWorld.py', 'r') as file:
+                elif message.lower() == 'pi':
+                    with open('/home/ryanjames/Desktop/CS370_TermProject/piNetwork/serverFiles/pi.txt', 'r') as file:
                         file_content = file.read()
                     client_socket.send(file_content.encode())
                 elif message.lower() == 'homepage':

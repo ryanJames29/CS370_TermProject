@@ -1,0 +1,25 @@
+Raspberry Pi 5 Operating System Specifications
+
+1. Operating System:
+   - Name: Raspberry Pi OS
+   - Version: (latest version at the time of installation)
+   - Based on: Debian Linux
+
+2. Processor:
+   - Model: (to be updated with the latest model)
+   - Architecture: ARMv8-A (64-bit)
+   - Core Count: (to be updated with the latest count)
+   - Clock Speed: (to be updated with the latest speed)
+
+3. Memory (RAM):
+   - Capacity: (to be updated with the latest capacity)
+   - Type: LPDDR4
+
+4. Storage:
+   - MicroSD Card Slot: Yes
+   - Supported Storage Size: (to be updated with the maximum supported size)
+   - Supported Storage Type: MicroSD, MicroSDHC, MicroSDXC
+
+5. Connectivity:
+   - Wireless: Wi-Fi 802.11 b/g/n/ac (2.4GHz/5GHz), Bluetooth 5.0
+   - Wired: Gigabit Ethernet
