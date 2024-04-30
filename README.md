@@ -6,3 +6,8 @@ Project Ideas:
 * With the use of 2 desktops and a pi, you can have the pi be a shared server between the devices, allowing users on the server to access shared files.
 * Connect both desktops to the VPN server to create a secure connection between them over the internet.
 
+Sources:
+
+https://www.datacamp.com/tutorial/a-complete-guide-to-socket-programming-in-python
+
+https://realpython.com/python-sockets/
