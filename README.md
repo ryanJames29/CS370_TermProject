@@ -11,3 +11,7 @@ Sources:
 https://www.datacamp.com/tutorial/a-complete-guide-to-socket-programming-in-python
 
 https://realpython.com/python-sockets/
+
+https://magpi.raspberrypi.com/articles/breadboard-tutorial
+
+https://docs.oracle.com/javame/8.3/me-dev-guide/general-purpose-input-output.htm#MEEDG338
